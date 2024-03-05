@@ -97,8 +97,6 @@ body {
     font-family: var(--font-family-primary);
     color: var(--body-fg);
     background: var(--body-bg);
-    /* background: url('static/admin/img/2-2000x1125.jpg') no-repeat center center fixed;
-    background-size: cover; */
 }
 
 /* LINKS */

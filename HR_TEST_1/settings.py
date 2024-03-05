@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-)#+4!%63e$6d77f$0)l3-wdl-ahke#9ocg52k&w298k#2c+40t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['reemabdhaleem.pythonanywhere.com',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'Employee',
 ]
 
@@ -82,6 +84,17 @@ DATABASES = {
         'HOST': 'localhost',
         'USER': 'root',
         'PASSWORD': '1234'
+    }
+}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'reemabdhaleem$HR_TEST_1',
+        'USER': 'reemabdhaleem',
+        'PASSWORD': 'Nmnm2001',
+        'HOST': 'reemabdhaleem.mysql.pythonanywhere-services.com',
+        'PORT': '3306',  # Usually 3306
     }
 }
 
