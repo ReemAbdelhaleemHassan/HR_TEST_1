@@ -87,16 +87,16 @@ DATABASES = {
     }
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'reemabdhaleem$HR_TEST_1',
-        'USER': 'reemabdhaleem',
-        'PASSWORD': 'Nmnm2001',
-        'HOST': 'reemabdhaleem.mysql.pythonanywhere-services.com',
-        'PORT': '3306',  # Usually 3306
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'reemabdhaleem$HR_TEST_1',
+#         'USER': 'reemabdhaleem',
+#         'PASSWORD': 'Nmnm2001',
+#         'HOST': 'reemabdhaleem.mysql.pythonanywhere-services.com',
+#         'PORT': '3306',  # Usually 3306
+#     }
+# }
 
 
 # Password validation
